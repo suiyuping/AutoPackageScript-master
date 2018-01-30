@@ -1,0 +1,740 @@
+2018-01-29 11:53:10 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fa670913710; archive(resolved)='<IDEArchive: 0x7fa6704f8a40>', distributionTask(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodDevelopmentSigned: 0x7fa6706287c0>', team(resolved)='<IDEProvisioningBasicTeam 0x7fa670653590: teamID: 5ZAJ7C6M9A, teamName: Beijing Dongfang Guoxin Technology Co., Ltd.>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fa670913710; archive = '<IDEArchive: 0x7fa6704f8a40>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fa6706287c0>', team='<IDEProvisioningBasicTeam 0x7fa670653590: teamID: 5ZAJ7C6M9A, teamName: Beijing Dongfang Guoxin Technology Co., Ltd.>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fa6706656e0; archive = '<IDEArchive: 0x7fa6704f8a40>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fa6706287c0>', team='<IDEProvisioningBasicTeam 0x7fa670653590: teamID: 5ZAJ7C6M9A, teamName: Beijing Dongfang Guoxin Technology Co., Ltd.>'>
+	<IDEDistributionContext: 0x7fa67067d450; archive = '<IDEArchive: 0x7fa6704f8a40>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fa6706287c0>', team='<IDEProvisioningBasicTeam 0x7fa670653590: teamID: 5ZAJ7C6M9A, teamName: Beijing Dongfang Guoxin Technology Co., Ltd.>'>
+	<IDEDistributionContext: 0x7fa670834200; archive = '<IDEArchive: 0x7fa6704f8a40>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fa6706287c0>', team='<IDEProvisioningBasicTeam 0x7fa670653590: teamID: 5ZAJ7C6M9A, teamName: Beijing Dongfang Guoxin Technology Co., Ltd.>'>
+	<IDEDistributionContext: 0x7fa670723ad0; archive = '<IDEArchive: 0x7fa6704f8a40>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fa6706287c0>', team='<IDEProvisioningBasicTeam 0x7fa670653590: teamID: 5ZAJ7C6M9A, teamName: Beijing Dongfang Guoxin Technology Co., Ltd.>'>
+	<IDEDistributionContext: 0x7fa67071fa70; archive = '<IDEArchive: 0x7fa6704f8a40>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fa6706287c0>', team='<IDEProvisioningBasicTeam 0x7fa670653590: teamID: 5ZAJ7C6M9A, teamName: Beijing Dongfang Guoxin Technology Co., Ltd.>'>
+	<IDEDistributionContext: 0x7fa670656db0; archive = '<IDEArchive: 0x7fa6704f8a40>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fa6706287c0>', team='<IDEProvisioningBasicTeam 0x7fa670653590: teamID: 5ZAJ7C6M9A, teamName: Beijing Dongfang Guoxin Technology Co., Ltd.>'>
+	<IDEDistributionContext: 0x7fa66dfc24b0; archive = '<IDEArchive: 0x7fa6704f8a40>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fa6706287c0>', team='<IDEProvisioningBasicTeam 0x7fa670653590: teamID: 5ZAJ7C6M9A, teamName: Beijing Dongfang Guoxin Technology Co., Ltd.>'>
+	<IDEDistributionContext: 0x7fa66ddd3200; archive = '<IDEArchive: 0x7fa6704f8a40>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fa6706287c0>', team='<IDEProvisioningBasicTeam 0x7fa670653590: teamID: 5ZAJ7C6M9A, teamName: Beijing Dongfang Guoxin Technology Co., Ltd.>'>
+	<IDEDistributionContext: 0x7fa6706006f0; archive = '<IDEArchive: 0x7fa6704f8a40>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fa6706287c0>', team='(null)'>
+	<IDEDistributionContext: 0x7fa6705a5a40; archive = '<IDEArchive: 0x7fa6704f8a40>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fa670913710>
+2018-01-29 11:53:10 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
+2018-01-29 11:53:10 +0000 [MT] Processing step: IDEDistributionCopyItemStep
+2018-01-29 11:53:10 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/suiyuping/Downloads/AutoPackageScript-master/workspace_demo/AutoPackageScriptDemo/Package/AutoPackageScriptDemo-20180129_195246/AutoPackageScriptDemo.xcarchive/Products/Applications/AutoPackageScriptDemo.app' '/var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/XcodeDistPipeline.CCA/Root/Payload/AutoPackageScriptDemo.app'
+2018-01-29 11:53:10 +0000  >>> Copying /Users/suiyuping/Downloads/AutoPackageScript-master/workspace_demo/AutoPackageScriptDemo/Package/AutoPackageScriptDemo-20180129_195246/AutoPackageScriptDemo.xcarchive/Products/Applications/AutoPackageScriptDemo.app 
+2018-01-29 11:53:10 +0000  copying file ./_CodeSignature/CodeResources ... 
+2018-01-29 11:53:10 +0000  6003 bytes for ./_CodeSignature/CodeResources
+2018-01-29 11:53:10 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-11.0+.nib ... 
+2018-01-29 11:53:10 +0000  964 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-11.0+.nib
+copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib ... 
+2018-01-29 11:53:10 +0000  964 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib
+2018-01-29 11:53:10 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-11.0+.nib ... 
+2018-01-29 11:53:10 +0000  3831 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-11.0+.nib
+copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib ... 
+2018-01-29 11:53:10 +0000  3957 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib
+2018-01-29 11:53:10 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2018-01-29 11:53:10 +0000  258 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2018-01-29 11:53:10 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2018-01-29 11:53:10 +0000  1986 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2018-01-29 11:53:10 +0000  832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2018-01-29 11:53:10 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2018-01-29 11:53:10 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2018-01-29 11:53:10 +0000  copying file ./archived-expanded-entitlements.xcent ... 
+2018-01-29 11:53:10 +0000  364 bytes for ./archived-expanded-entitlements.xcent
+2018-01-29 11:53:10 +0000  copying file ./AutoPackageScriptDemo ... 
+2018-01-29 11:53:10 +0000  1755808 bytes for ./AutoPackageScriptDemo
+2018-01-29 11:53:10 +0000  copying file ./embedded.mobileprovision ... 
+2018-01-29 11:53:10 +0000  115206 bytes for ./embedded.mobileprovision
+copying file ./Info.plist ... 
+2018-01-29 11:53:10 +0000  1118 bytes for ./Info.plist
+2018-01-29 11:53:10 +0000  copying file ./PkgInfo ... 
+2018-01-29 11:53:10 +0000  8 bytes for ./PkgInfo
+2018-01-29 11:53:10 +0000  
+2018-01-29 11:53:10 +0000  
+2018-01-29 11:53:10 +0000 [MT] /usr/bin/ditto exited with 02018-01-29 11:53:10 +0000  
+
+2018-01-29 11:53:10 +0000  
+2018-01-29 11:53:10 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
+2018-01-29 11:53:10 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
+2018-01-29 11:53:10 +0000 [MT] Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2018-01-29 11:53:10 +0000 [MT] Processing step: IDEDistributionCompileBitcodeStep
+2018-01-29 11:53:10 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool '/var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/XcodeDistPipeline.CCA/Root' '--json' '/var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/ipatool-json-filepath-nJTFFN' '--compile-bitcode' '--output' '/var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/IDEIPAProcessor.AppThinning.kZF' '--toolchain' '/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr' '--platforms' '/Applications/Xcode.app/Contents/Developer/Platforms'
+2018-01-29 11:53:10 +0000  ruby 2.3.3p222 (2016-11-21 revision 56859) [universal.x86_64-darwin17]
+2018-01-29 11:53:10 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:1586: warning: assigned but unused variable - minVersion
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:1586: warning: assigned but unused variable - sdkVersion
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:1595: warning: assigned but unused variable - sourceVersion
+2018-01-29 11:53:10 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:1697: warning: shadowing outer local variable - node
+2018-01-29 11:53:10 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2461: warning: shadowing outer local variable - machoFile
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2461: warning: shadowing outer local variable - machoImage
+2018-01-29 11:53:10 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2488: warning: key :hasBitcode is duplicated and overwritten on line 2490
+2018-01-29 11:53:10 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2653: warning: assigned but unused variable - flag
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2653: warning: assigned but unused variable - transformer
+2018-01-29 11:53:10 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2903: warning: assigned but unused variable - exc
+2018-01-29 11:53:10 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:731: warning: assigned but unused variable - output
+2018-01-29 11:53:10 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/libxml-ruby-2.9.0/lib/libxml/schema/type.rb:8: warning: method redefined; discarding old annotation
+2018-01-29 11:53:10 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/libxml-ruby-2.9.0/lib/libxml/schema/element.rb:18: warning: method redefined; discarding old annotation
+2018-01-29 11:53:10 +0000  OS X 10.13.2 17C88
+2018-01-29 11:53:10 +0000  ENV: {"TERM_SESSION_ID"=>"2500F6C6-9483-40E9-8446-FACFD7ED7F65", "SSH_AUTH_SOCK"=>"/private/tmp/com.apple.launchd.0utGKG0NSC/Listeners", "OLDPWD"=>"/Users/suiyuping/Downloads/AutoPackageScript-master/workspace_demo/AutoPackageScriptDemo", "Apple_PubSub_Socket_Render"=>"/private/tmp/com.apple.launchd.0G3QUX6GNA/Render", "XPC_FLAGS"=>"0x0", "LANG"=>"zh_CN.UTF-8", "PWD"=>"/Users/suiyuping/Downloads/AutoPackageScript-master/workspace_demo/AutoPackageScriptDemo", "SHELL"=>"/bin/bash", "TERM_PROGRAM_VERSION"=>"400", "TERM_PROGRAM"=>"Apple_Terminal", "PATH"=>"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin", "SHLVL"=>"2", "TERM"=>"xterm-256color", "_"=>"/usr/bin/xcodebuild", "HOME"=>"/Users/suiyuping", "TMPDIR"=>"/var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/", "USER"=>"suiyuping", "XPC_SERVICE_NAME"=>"0", "LOGNAME"=>"suiyuping", "__CF_USER_TEXT_ENCODING"=>"0x1F5:0x19:0x34"}
+ARGV: ["/var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/XcodeDistPipeline.CCA/Root", "--json", "/var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/ipatool-json-filepath-nJTFFN", "--compile-bitcode", "--output", "/var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/IDEIPAProcessor.AppThinning.kZF", "--toolchain", "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr", "--platforms", "/Applications/Xcode.app/Contents/Developer/Platforms"]
+2018-01-29 11:53:10 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:101: warning: method redefined; discarding old to_h
+2018-01-29 11:53:10 +0000  warning: Configuration issue: platform WatchSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+2018-01-29 11:53:10 +0000  warning: Configuration issue: platform AppleTVSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+2018-01-29 11:53:10 +0000  warning: Configuration issue: platform iPhoneSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+2018-01-29 11:53:10 +0000  Scanning IPA...
+2018-01-29 11:53:11 +0000  Complete LinkageGraph:
+    AutoPackageScriptDemo.app/AutoPackageScriptDemo armv7 ->
+    
+    AutoPackageScriptDemo.app/AutoPackageScriptDemo arm64 ->
+2018-01-29 11:53:11 +0000  Validating IPA structure...
+2018-01-29 11:53:11 +0000  Compiling bitcode...
+2018-01-29 11:53:11 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool -v -t /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk -o /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/ipatool20180129-13760-1685wwg/thinned/armv7/Payload/AutoPackageScriptDemo.app/AutoPackageScriptDemo --generate-dsym /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/ipatool20180129-13760-1685wwg/thinned/armv7/Payload/AutoPackageScriptDemo.app/AutoPackageScriptDemo.dSYM --strip-swift-symbols /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/ipatool20180129-13760-1685wwg/thinned/armv7/Payload/AutoPackageScriptDemo.app/AutoPackageScriptDemo
+2018-01-29 11:53:11 +0000    Compiling bitcode for armv7...
+    Compiling armv7 bitcode in 'AutoPackageScriptDemo'
+2018-01-29 11:53:13 +0000      /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool exited with pid 13821 exit 0
+    Stdout:
+        Debug: SDK path: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk
+        Debug: PATH: ['/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin', '/Applications/Xcode.app/Contents/Developer/usr/bin']
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo
+        MachoInfo: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo" "-info" "/var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/ipatool20180129-13760-1685wwg/thinned/armv7/Payload/AutoPackageScriptDemo.app/AutoPackageScriptDemo" 
+        -= Output =-
+        Non-fat file: /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/ipatool20180129-13760-1685wwg/thinned/armv7/Payload/AutoPackageScriptDemo.app/AutoPackageScriptDemo is architecture: armv7
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump
+        GetUUID: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/ipatool20180129-13760-1685wwg/thinned/armv7/Payload/AutoPackageScriptDemo.app/AutoPackageScriptDemo" 
+        -= Output =-
+        UUID: EA69B36F-BA4C-3F61-86A0-7D84302B4249 (armv7) /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/ipatool20180129-13760-1685wwg/thinned/armv7/Payload/AutoPackageScriptDemo.app/AutoPackageScriptDemo
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit
+        ExtractXAR: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit" "/var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/ipatool20180129-13760-1685wwg/thinned/armv7/Payload/AutoPackageScriptDemo.app/AutoPackageScriptDemo" "-extract" "__LLVM" "__bundle" "/var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/AutoPackageScriptDemoWBNvgC/AutoPackageScriptDemo.armv7.xar" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Bitcode bundle version: 1.0
+        Debug: Setting platform to: iPhoneOS
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempV9zmKk
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "01" "-o" "01.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempV9zmKk
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "02" "-o" "02.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempV9zmKk
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "03" "-o" "03.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tem
+2018-01-29 11:53:13 +0000  pV9zmKk
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "04" "-o" "04.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempV9zmKk
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "05" "-o" "05.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempV9zmKk
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "06" "-o" "06.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempV9zmKk
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "07" "-o" "07.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempV9zmKk
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "08" "-o" "08.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempV9zmKk
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "09" "-o" "09.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempV9zmKk
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "10" "-o" "10.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempV9zmKk
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "11" "-o" "11.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempV9zmKk
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "12" "-o" "12.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempV9zmKk
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x"
+2018-01-29 11:53:13 +0000   "ir" "13" "-o" "13.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempV9zmKk
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "14" "-o" "14.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempV9zmKk
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "15" "-o" "15.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempV9zmKk
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "16" "-o" "16.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempV9zmKk
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "17" "-o" "17.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempV9zmKk
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "18" "-o" "18.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempV9zmKk
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "19" "-o" "19.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempV9zmKk
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "20" "-o" "20.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempV9zmKk
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "21" "-o" "21.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempV9zmKk
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "22" "-o" "22.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempV9zmKk
+        "/Applications/Xcode.app/Contents/Developer/
+2018-01-29 11:53:13 +0000  Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "23" "-o" "23.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempV9zmKk
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "24" "-o" "24.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempV9zmKk
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "25" "-o" "25.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempV9zmKk
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "26" "-o" "26.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempV9zmKk
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "27" "-o" "27.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/lib/libobjc.A.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/lib/libSystem.B.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/lib/libobjc.A.tbd
+        Ld: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempV9zmKk
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-arch" "armv7" "-execute" "-ios_version_min" "9.0.0" "-e" "_main" "-rpath" "@executable_path/Frameworks" "-executable_path" "/Users/suiyuping/Downloads/AutoPackageScript-master/workspace_de
+2018-01-29 11:53:13 +0000  mo/AutoPackageScriptDemo/Build/Intermediates.noindex/ArchiveIntermediates/AutoPackageScriptDemo/IntermediateBuildFilesPath/AutoPackageScriptDemo.build/Release-iphoneos/AutoPackageScriptDemo.build/Objects-normal/armv7/AutoPackageScriptDemo" "-dead_strip" "-syslibroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk" "-sdk_version" "11.0.0" "-filelist" "/private/var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/AutoPackageScriptDemoWBNvgC/AutoPackageScriptDemo.armv7.out.LinkFileList" "-ignore_auto_link" "-allow_dead_duplicates" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/lib/libSystem.B.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.ios.a" "-o" "/private/var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/AutoPackageScriptDemoWBNvgC/AutoPackageScriptDemo.armv7.out" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        warning: Cannot genarte useful dsym from input macho file: /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/ipatool20180129-13760-1685wwg/thinned/armv7/Payload/AutoPackageScriptDemo.app/AutoPackageScriptDemo
+        
+        GetUUID: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/ipatool20180129-13760-1685wwg/thinned/armv7/Payload/AutoPackageScriptDemo.app/AutoPackageScriptDemo" 
+        -= Output =-
+        UUID: 85544F11-4860-34FE-8680-2E10DEA2091A (armv7) /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/ipatool20180129-13760-1685wwg/thinned/armv7/Payload/AutoPackageScriptDemo.app/AutoPackageScriptDemo
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil
+        Dsymutil: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil" "/var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/ipatool20180129-13760-1685wwg/thinned/armv7/Payload/AutoPackageScriptDemo.app/AutoPackageScriptDemo" "-o" "/var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/ipatool20180129-13760-1685wwg/thinned/armv7/Payload/AutoPackageScriptDemo.app/AutoPackageScriptDemo.dSYM" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip
+        StripSymbols: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" "/var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/ipatool2018012
+2018-01-29 11:53:13 +0000  9-13760-1685wwg/thinned/armv7/Payload/AutoPackageScriptDemo.app/AutoPackageScriptDemo" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+    
+    Stderr:
+/Applications/Xcode.app/Contents/Developer/usr/bin/symbols -failIfMissingDsym -symbolsPackageDir /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/ipatool20180129-13760-1685wwg/thinned/armv7/Payload/AutoPackageScriptDemo.app /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/ipatool20180129-13760-1685wwg/thinned/armv7/Payload/AutoPackageScriptDemo.app/AutoPackageScriptDemo
+2018-01-29 11:53:13 +0000      /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with pid 13861 exit 0
+    Stdout:
+        /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/ipatool20180129-13760-1685wwg/thinned/armv7/Payload/AutoPackageScriptDemo.app/AutoPackageScriptDemo [armv7, 0.001675 seconds]:
+    
+    Stderr:
+2018-01-29 11:53:13 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool -v -t /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk -o /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/ipatool20180129-13760-1685wwg/thinned/arm64/Payload/AutoPackageScriptDemo.app/AutoPackageScriptDemo --generate-dsym /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/ipatool20180129-13760-1685wwg/thinned/arm64/Payload/AutoPackageScriptDemo.app/AutoPackageScriptDemo.dSYM --strip-swift-symbols /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/ipatool20180129-13760-1685wwg/thinned/arm64/Payload/AutoPackageScriptDemo.app/AutoPackageScriptDemo
+2018-01-29 11:53:13 +0000    Compiling bitcode for arm64...
+    Compiling arm64 bitcode in 'AutoPackageScriptDemo'
+2018-01-29 11:53:14 +0000      /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool exited with pid 13870 exit 0
+    Stdout:
+        Debug: SDK path: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk
+        Debug: PATH: ['/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin', '/Applications/Xcode.app/Contents/Developer/usr/bin']
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo
+        MachoInfo: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo" "-info" "/var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/ipatool20180129-13760-1685wwg/thinned/arm64/Payload/AutoPackageScriptDemo.app/AutoPackageScriptDemo" 
+        -= Output =-
+        Non-fat file: /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/ipatool20180129-13760-1685wwg/thinned/arm64/Payload/AutoPackageScriptDemo.app/AutoPackageScriptDemo is architecture: arm64
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump
+        GetUUID: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/ipatool20180129-13760-1685wwg/thinned/arm64/Payload/AutoPackageScriptDemo.app/AutoPackageScriptDemo" 
+        -= Output =-
+        UUID: B830A414-DD0D-3E4C-9734-50A0C0EDCE33 (arm64) /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/ipatool20180129-13760-1685wwg/thinned/arm64/Payload/AutoPackageScriptDemo.app/AutoPackageScriptDemo
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit
+        ExtractXAR: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit" "/var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/ipatool20180129-13760-1685wwg/thinned/arm64/Payload/AutoPackageScriptDemo.app/AutoPackageScriptDemo" "-extract" "__LLVM" "__bundle" "/var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/AutoPackageScriptDemo29mfWo/AutoPackageScriptDemo.arm64.xar" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Bitcode bundle version: 1.0
+        Debug: Setting platform to: iPhoneOS
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempk9X64o
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "01" "-o" "01.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempk9X64o
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "02" "-o" "02.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempk9X64o
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "03" "-o" "03.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempk9X64o
+        "/Applications/Xcode.app/Contents/Developer/Toolch
+2018-01-29 11:53:14 +0000  ains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "04" "-o" "04.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempk9X64o
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "05" "-o" "05.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempk9X64o
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "06" "-o" "06.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempk9X64o
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "07" "-o" "07.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempk9X64o
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "08" "-o" "08.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempk9X64o
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "09" "-o" "09.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempk9X64o
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "10" "-o" "10.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempk9X64o
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "11" "-o" "11.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempk9X64o
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "12" "-o" "12.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempk9X64o
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "13" "-o" "13.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempk9X64o
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bi
+2018-01-29 11:53:14 +0000  n/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "14" "-o" "14.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempk9X64o
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "15" "-o" "15.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempk9X64o
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "16" "-o" "16.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempk9X64o
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "17" "-o" "17.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempk9X64o
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "18" "-o" "18.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempk9X64o
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "19" "-o" "19.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempk9X64o
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "20" "-o" "20.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempk9X64o
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "21" "-o" "21.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempk9X64o
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "22" "-o" "22.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempk9X64o
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "23" "-o" "23.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempk9X64o
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-app
+2018-01-29 11:53:14 +0000  le-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "24" "-o" "24.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempk9X64o
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "25" "-o" "25.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempk9X64o
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "26" "-o" "26.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempk9X64o
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "27" "-o" "27.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/lib/libobjc.A.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/lib/libSystem.B.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/lib/libobjc.A.tbd
+        Ld: cd /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/tempk9X64o
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-arch" "arm64" "-execute" "-ios_version_min" "9.0.0" "-e" "_main" "-rpath" "@executable_path/Frameworks" "-executable_path" "/Users/suiyuping/Downloads/AutoPackageScript-master/workspace_demo/AutoPackageScriptDemo/Build/Intermediates.noindex/ArchiveIntermediates/AutoPackageScriptDemo/IntermediateBuildFilesPath/AutoPackageScriptDemo.build/Release-iphoneos/AutoPackageScriptDemo.build/Objects-normal/arm64/AutoPackageScriptDemo" "-dead_strip" "-syslibroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk" "-sdk_version" "11.0.0" "-filelist" "/private/var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/AutoPackageScriptDemo29mfWo/AutoPackageScriptDemo.arm64.out.LinkFileList" "-ignore_auto_link" "-allow_dead_duplicates" "/Applic
+2018-01-29 11:53:14 +0000  ations/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/lib/libSystem.B.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.ios.a" "-o" "/private/var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/AutoPackageScriptDemo29mfWo/AutoPackageScriptDemo.arm64.out" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        warning: Cannot genarte useful dsym from input macho file: /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/ipatool20180129-13760-1685wwg/thinned/arm64/Payload/AutoPackageScriptDemo.app/AutoPackageScriptDemo
+        
+        GetUUID: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/ipatool20180129-13760-1685wwg/thinned/arm64/Payload/AutoPackageScriptDemo.app/AutoPackageScriptDemo" 
+        -= Output =-
+        UUID: 5D142C93-25C0-365B-B21F-4FC936788B87 (arm64) /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/ipatool20180129-13760-1685wwg/thinned/arm64/Payload/AutoPackageScriptDemo.app/AutoPackageScriptDemo
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil
+        Dsymutil: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil" "/var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/ipatool20180129-13760-1685wwg/thinned/arm64/Payload/AutoPackageScriptDemo.app/AutoPackageScriptDemo" "-o" "/var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/ipatool20180129-13760-1685wwg/thinned/arm64/Payload/AutoPackageScriptDemo.app/AutoPackageScriptDemo.dSYM" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip
+        StripSymbols: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" "/var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/ipatool20180129-13760-1685wwg/thinned/arm64/Payload/AutoPackageScriptDemo.app/AutoPackageScriptDemo" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+    
+    Stderr:
+/Applications/Xcode.app/Contents/Developer/usr/bin/symbols -failIfMissingDsym -symbolsPackageDir /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/ipatool20180129-13760-1685wwg/thinned/arm64/Payload/AutoPackageScriptDemo.app /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/ipatool20180129-13760-1685wwg/thinned/arm64/Payload/AutoPackageScriptDemo.app/AutoPackageScriptDemo
+2018-01-29 11:53:14 +0000      /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with pid 13910 exit 0
+    Stdout:
+        /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/ipatool20180129-13760-1685wwg/thinned/arm64/Payload/AutoPackageScriptDemo.app/AutoPackageScriptDemo [arm64, 0.001925 seconds]:
+    
+    Stderr:
+2018-01-29 11:53:14 +0000  Creating universal IPA contents for all devices
+  Creating directory /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/IDEIPAProcessor.AppThinning.kZF/universal
+  Copying AutoPackageScriptDemo.app output payload directory
+2018-01-29 11:53:14 +0000  /Library/Ruby/Gems/2.3.0/gems/CFPropertyList-2.3.6/lib/cfpropertylist/rbCFPropertyList.rb:394: warning: File.exists? is a deprecated name, use File.exist? instead
+2018-01-29 11:53:15 +0000    Copying .dSYM files to /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/IDEIPAProcessor.AppThinning.kZF/universal/dSYMs
+  Copying .symbols files to /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/IDEIPAProcessor.AppThinning.kZF/universal/Symbols
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  2018-01-29 11:53:15 +0000  
+
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  2018-01-29 11:53:15 +0000 [MT] /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool exited with 0
+
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000 [MT] ipatool JSON: {
+    alerts =     (
+                {
+            code = 2808;
+            description = "Configuration issue: platform WatchSimulator.platform doesn't have any non-simulator SDKs; ignoring it";
+            info =             {
+            };
+            level = WARN;
+        },
+                {
+            code = 2808;
+            description = "Configuration issue: platform AppleTVSimulator.platform doesn't have any non-simulator SDKs; ignoring it";
+            info =             {
+            };
+            level = WARN;
+        },
+                {
+            code = 2808;
+            description = "Configuration issue: platform iPhoneSimulator.platform doesn't have any non-simulator SDKs; ignoring it";
+            info =             {
+            };
+            level = WARN;
+        }
+    );
+    thinnableAssetCatalogs =     (
+    );
+    universalIPA =     {
+        path = "/var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/IDEIPAProcessor.AppThinning.kZF/universal";
+    };
+}
+2018-01-29 11:53:15 +0000 [MT] Processing step: IDEDistributionCodeSlimmingStep
+2018-01-29 11:53:15 +0000 [MT] Processing step: IDEDistributionCopyBCSymbolMapsStep
+2018-01-29 11:53:15 +0000 [MT] Processing step: IDEDistributionSymbolsStep
+2018-01-29 11:53:15 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2018-01-29 11:53:15 +0000 [MT] Processing step: IDEDistributionAppThinningStep
+2018-01-29 11:53:15 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
+2018-01-29 11:53:15 +0000 [MT] Processing step: IDEDistributionODRStep
+2018-01-29 11:53:15 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
+2018-01-29 11:53:15 +0000 [MT] Running /usr/bin/xattr '-cr' '/var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/XcodeDistPipeline.CCA/Root/Payload/AutoPackageScriptDemo.app'
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  2018-01-29 11:53:15 +0000 [MT] /usr/bin/xattr exited with 0
+
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000 [MT] Processing step: IDEDistributionCodesignStep
+2018-01-29 11:53:15 +0000 [MT] Applying entitlements delta for <IDEDistributionItem: 0x7fa670610130 'com.bonc.vbap' '<DVTFilePath:0x7fa6704f8d10:'/Users/suiyuping/Downloads/AutoPackageScript-master/workspace_demo/AutoPackageScriptDemo/Package/AutoPackageScriptDemo-20180129_195246/AutoPackageScriptDemo.xcarchive/Products/Applications/AutoPackageScriptDemo.app'>'> from <IDEiCloudEntitlementsProcessor: 0x7fa6706562a0>: {
+}
+2018-01-29 11:53:15 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7fa670610130 'com.bonc.vbap' '<DVTFilePath:0x7fa6704f8d10:'/Users/suiyuping/Downloads/AutoPackageScript-master/workspace_demo/AutoPackageScriptDemo/Package/AutoPackageScriptDemo-20180129_195246/AutoPackageScriptDemo.xcarchive/Products/Applications/AutoPackageScriptDemo.app'>'>: {
+    "application-identifier" = "5ZAJ7C6M9A.com.bonc.vbap";
+    "com.apple.developer.team-identifier" = 5ZAJ7C6M9A;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "5ZAJ7C6M9A.com.bonc.vbap"
+    );
+}
+2018-01-29 11:53:15 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7fa670610130 'com.bonc.vbap' '<DVTFilePath:0x7fa6704f8d10:'/Users/suiyuping/Downloads/AutoPackageScript-master/workspace_demo/AutoPackageScriptDemo/Package/AutoPackageScriptDemo-20180129_195246/AutoPackageScriptDemo.xcarchive/Products/Applications/AutoPackageScriptDemo.app'>'> to: /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/XcodeDistPipeline.CCA/entitlementsjJJZez
+2018-01-29 11:53:15 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '0CD6D5CA756E089F88EA6AC5AD1D66D89CB2F505' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/XcodeDistPipeline.CCA/entitlementsjJJZez' '/var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/XcodeDistPipeline.CCA/Root/Payload/AutoPackageScriptDemo.app'
+2018-01-29 11:53:15 +0000  /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/XcodeDistPipeline.CCA/Root/Payload/AutoPackageScriptDemo.app: signed app bundle with Mach-O universal (armv7 arm64) [com.bonc.vbap]
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000 [MT] /usr/bin/codesign exited with 0
+
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000 [MT] Processing step: IDEDistributionStreamingZipItemStep
+2018-01-29 11:53:15 +0000 [MT] Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-01-29 11:53:15 +0000 [MT] Processing step: IDEDistributionCreateIPAStep
+2018-01-29 11:53:15 +0000 [MT] Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/XcodeDistPipeline.CCA/Root' '/var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/XcodeDistPipeline.CCA/Packages/AutoPackageScriptDemo.ipa'
+2018-01-29 11:53:15 +0000  >>> Copying /var/folders/y8/q2k8l3xn29vg83md8zbqdjmh0000gn/T/XcodeDistPipeline.CCA/Root 
+2018-01-29 11:53:15 +0000  copying file ./Payload/AutoPackageScriptDemo.app/_CodeSignature/CodeResources ... 
+2018-01-29 11:53:15 +0000  6003 bytes for ./Payload/AutoPackageScriptDemo.app/_CodeSignature/CodeResources
+2018-01-29 11:53:15 +0000  copying file ./Payload/AutoPackageScriptDemo.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-11.0+.nib ... 
+2018-01-29 11:53:15 +0000  964 bytes for ./Payload/AutoPackageScriptDemo.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-11.0+.nib
+2018-01-29 11:53:15 +0000  copying file ./Payload/AutoPackageScriptDemo.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib ... 
+2018-01-29 11:53:15 +0000  964 bytes for ./Payload/AutoPackageScriptDemo.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib
+2018-01-29 11:53:15 +0000  copying file ./Payload/AutoPackageScriptDemo.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-11.0+.nib ... 
+2018-01-29 11:53:15 +0000  3831 bytes for ./Payload/AutoPackageScriptDemo.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-11.0+.nib
+copying file ./Payload/AutoPackageScriptDemo.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib ... 
+2018-01-29 11:53:15 +0000  3957 bytes for ./Payload/AutoPackageScriptDemo.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib
+2018-01-29 11:53:15 +0000  copying file ./Payload/AutoPackageScriptDemo.app/Base.lproj/Main.storyboardc/Info.plist ... 
+258 bytes for ./Payload/AutoPackageScriptDemo.app/Base.lproj/Main.storyboardc/Info.plist
+copying file ./Payload/AutoPackageScriptDemo.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2018-01-29 11:53:15 +0000  1986 bytes for ./Payload/AutoPackageScriptDemo.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/AutoPackageScriptDemo.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2018-01-29 11:53:15 +0000  832 bytes for ./Payload/AutoPackageScriptDemo.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/AutoPackageScriptDemo.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+258 bytes for ./Payload/AutoPackageScriptDemo.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/AutoPackageScriptDemo.app/archived-expanded-entitlements.xcent ... 
+2018-01-29 11:53:15 +0000  364 bytes for ./Payload/AutoPackageScriptDemo.app/archived-expanded-entitlements.xcent
+copying file ./Payload/AutoPackageScriptDemo.app/AutoPackageScriptDemo ... 
+2018-01-29 11:53:15 +0000  436304 bytes for ./Payload/AutoPackageScriptDemo.app/AutoPackageScriptDemo
+2018-01-29 11:53:15 +0000  copying file ./Payload/AutoPackageScriptDemo.app/embedded.mobileprovision ... 
+2018-01-29 11:53:15 +0000  115206 bytes for ./Payload/AutoPackageScriptDemo.app/embedded.mobileprovision
+copying file ./Payload/AutoPackageScriptDemo.app/Info.plist ... 
+2018-01-29 11:53:15 +0000  2369 bytes for ./Payload/AutoPackageScriptDemo.app/Info.plist
+copying file ./Payload/AutoPackageScriptDemo.app/PkgInfo ... 
+8 bytes for ./Payload/AutoPackageScriptDemo.app/PkgInfo
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  2018-01-29 11:53:15 +0000 [MT] /usr/bin/ditto exited with 02018-01-29 11:53:15 +0000  
+
+
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000  
+2018-01-29 11:53:15 +0000 [MT] Processing step: IDEDistributionCreateManifestStep

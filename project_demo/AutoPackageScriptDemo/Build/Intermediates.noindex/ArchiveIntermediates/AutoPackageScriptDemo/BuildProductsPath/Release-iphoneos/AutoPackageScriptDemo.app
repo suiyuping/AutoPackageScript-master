@@ -1,0 +1,1 @@
+/Users/suiyuping/Downloads/AutoPackageScript-master/project_demo/AutoPackageScriptDemo/Build/Intermediates.noindex/ArchiveIntermediates/AutoPackageScriptDemo/InstallationBuildProductsLocation/Applications/AutoPackageScriptDemo.app
